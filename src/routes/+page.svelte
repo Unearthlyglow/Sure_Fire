@@ -1,13 +1,13 @@
 <script>
   import '@picocss/pico';
-  // import ccmBuilding from '../public/assets/CCM.png'
-  // import blueBlock from '../public/assets/blueBlock.png'
-  // import redBlock from '../public/assets/redBlock.png'
-  // import purpleBlock from '../public/assets/purpleBlock.png'
+  import ccmBuilding from '../public/assets/CCM.png'
+  import blueBlock from '../public/assets/blueBlock.png'
+  import redBlock from '../public/assets/redBlock.png'
+  import purpleBlock from '../public/assets/purpleBlock.png'
 </script>
 
 <div class="container-fluid">
-  <!-- <img class="ccm" src={ccmBuilding} alt="Caps" /> -->
+  <img class="ccm" src={ccmBuilding} alt="Caps" />
 
     <!-- <div class="ccmLogo" ref="ccmLogo"> -->
       <img src="~/assets/CCMLogo.png" alt="" />
@@ -18,11 +18,12 @@
         <a href="#servicesTitle" class="header--tab">Services ||</a>
         <a href="#section--contact" class="header--tab">Contact </a>
       </div> -->
+      <header>
+        <h3 class="header--CyberSpace--quote">Cyberspace // It's Almost Better Than Life</h3>
+        <h4 class="header--CyberSpace--moat">Please excuse the lack of a website. When I first created this site I did it in a hurry and it lacked confidence and had some bugs. I've been busy with other projects but will be periodically updating this website as time progresses - May 2023 || ~Award</h4>
+      </header>
     </div>
 
-
-    <h3 class="header--CyberSpace--quote">Cyberspace // It's Almost Better Than Life</h3>
-    <h4 class="header--CyberSpace--moat">Please excuse the lack of a website. When I first created this site I did it in a hurry and it lacked confidence and had some bugs. I've been busy with other projects but will be periodically updating this website as time progresses - May 2023 || ~Award</h4>
 
     <!-- <p class="aboutAward">Hello, my name is <span>Award Malisi.</span></p> -->
 
